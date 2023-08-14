@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    height: 415px;
+    width: 555px;
+    border-radius: 10px;
+}
+
+.right{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pic{
+    width: 275px;
+    height: 415px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.header{
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+}
+
+h1{
+    padding-top: 20px;
+    font-family: Fraunces;
+    color: hsl(212, 21%, 14%);
+    line-height: 32px;
+    padding-bottom: 22px;
+}
+
+.text p{
+    font-family: Montserrat;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    padding-bottom: 20px;
+    line-height: 22px;
+}
+
+.amount{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.amount p{
+    font-family: Fraunces;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+
+#stroked{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Montserrat;
+    text-decoration: line-through;
+}
+
+#btn{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 225px;
+    height: 45px;
+    color: hsl(0, 0%, 100%);
+    font-family: Montserrat;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+    margin-bottom: 20px;
+}
+
+#btn:hover{
+    background-color: hsl(159, 44%, 15%);
+}
